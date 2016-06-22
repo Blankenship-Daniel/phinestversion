@@ -1,0 +1,23 @@
+// create a new project
+composer create-project laravel/laravel <project_name>
+
+// create a connection to the localhost
+php -S localhost:8888 -t public
+
+// make a new controller that is empty
+php artisan make:controller <controller_name> --plain
+
+// make a new Eloquent model
+php artisan make:model <model_name>
+
+// get a list of artisan commands
+php artisan
+
+// how to migrate a database
+php artisan migrate
+
+// rollback db change
+php artisan migrate:rollback
+
+// create a new migration table
+php artisan make:migration create_submissions_table --create="comments"

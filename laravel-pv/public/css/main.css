@@ -1,0 +1,320 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #7759ae;
+    font-size: 16px;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+
+header {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 64px;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.navbar {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border: none;
+}
+
+.submission-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.user-info {
+    margin-left: 20px;
+}
+
+#user-image {
+    background: #7759ae;
+    position: relative;
+    display: inline-block;
+    float: right;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.border-right {
+    border-right: 1px solid #ddd;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+.home {
+    margin-left: 20px;
+    border-left: 1px solid #ddd;
+}
+
+.home:hover {
+    border-bottom: 8px solid #7759ae;
+}
+
+.songs:hover {
+    border-bottom: 8px solid #4386fc;
+}
+
+.shows:hover {
+    border-bottom: 8px solid #f4b400;
+}
+
+.years:hover {
+    border-bottom: 8px solid #0da95f;
+}
+
+.login:hover, .logout:hover {
+    border-bottom: 8px solid #7759ae;
+}
+
+.green {
+    color: #0da95f;
+}
+
+.purple {
+    color: #7759ae;
+}
+
+
+.content {
+    padding: 30px;
+    margin: 64px auto 0 auto;
+    max-width: 980px;
+    min-height: 100%;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.errors {
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+}
+
+.alpha-search {
+    text-align: center;
+    color: #4386fc;
+    margin-bottom: 25px;
+}
+
+.link {
+    color: #4386fc;
+}
+
+.search {
+    width: 200px;
+    display: inline-block;
+}
+
+.search-form {
+    margin-top: 20px;
+    width: 250px;
+}
+
+.description {
+    font-size: 16px;
+    font-family: 'EB Garamond', serif;
+}
+
+.home-page-description {
+    font-family: 'EB Garamond', serif;
+}
+
+.phishin-link, .view-comments, .comment {
+    font-size: 14px;
+}
+
+.table.sub-table {
+    background-color: transparent;
+}
+
+.table.sub-table>tbody>tr>td {
+    border-top: none;
+}
+
+.purple.fa.fa-thumbs-up, .purple.fa.fa-thumbs-o-down {
+    font-size: 24px;
+}
+
+.purple.fa.fa-thumbs-o-down {
+    margin-top: 10px;
+}
+
+.score {
+    margin-top: 10px;
+}
+
+.songlistings {
+    margin-top: 30px;
+}
+
+#phish_logo {
+    display: inline-block;
+}
+
+#logo {
+    font-size: 20px;
+}
+
+.navbar-header {
+    margin: 17px;
+}
+
+.navbar-fixed-top .navbar-collapse {
+    max-height: 400px;
+}
+
+.navbar-collapse.in {
+    overflow-y: initial;
+}
+
+.modal-submit-btn {
+    float: left;
+}
+
+.username {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.date {
+    font-size: 12px;
+}
+
+@media (max-width: 1050px) {
+
+    #user-image {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    header {
+        margin: 10px 10px 0 10px;
+        position: relative;
+        height: initial;
+        width: initial;
+    }
+
+    #register_link {
+        font-size: 12px;
+    }
+
+    .navbar {
+        margin-bottom: initial;
+    }
+
+    .content {
+        margin: 75px 10px 10px 10px;
+    }
+}
+
+@media (max-width: 960px) {
+
+    .search-form {
+        width: initial;
+    }
+
+    .search {
+        width: initial;
+    }
+
+    .search-submit {
+        display: none;
+    }
+
+    .home {
+        border-left: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .phishin-link, .view-comments {
+        border-right: none;
+    }
+
+    .phishin-link, .view-comments, .comment {
+        border-top: 1px solid #ddd;
+        text-align: center;
+        display: block;
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+
+    .home:hover, .songs:hover, .shows:hover,
+    .years:hover, .login:hover, .logout:hover {
+        border-bottom: none;
+    }
+
+    .home {
+        margin-left: 0px;
+        border-left: 5px solid #7759ae;
+    }
+
+    .songs {
+        border-left: 5px solid #4386fc;
+    }
+
+    .shows {
+        border-left: 5px solid #f4b400;
+    }
+
+    .years {
+        border-left: 5px solid #0da95f;
+    }
+
+    ul.nav.navbar-nav li {
+        border-top: 1px solid #ddd;
+    }
+
+    .login, .logout {
+        border-left: none;
+        padding: 0px;
+    }
+
+    .search {
+        width: initial;
+    }
+
+    .search-form {
+        width: 100%;
+        margin: 8px 8px 0px 8px;
+    }
+}

@@ -1,0 +1,87 @@
+body {
+    background: #0da95f;
+}
+
+#years_nav {
+    border-bottom: 8px solid #0da95f;
+}
+
+.year-icon-wrapper {
+    height: 250px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* different image for each year of phish. */
+.p83 { background: url('/img/phish-83.jpg'); }
+.p84 { background: url('/img/phish-84.jpg'); }
+.p85 { background: url('/img/phish-85.jpg'); }
+.p86 { background: url('/img/phish-86.jpg'); }
+.p87 { background: url('/img/phish-87.jpg'); }
+.p88 { background: url('/img/phish-88.jpg'); }
+.p89 { background: url('/img/phish-89.jpg'); }
+.p90 { background: url('/img/phish-90.jpg'); }
+.p91 { background: url('/img/phish-91.jpg'); }
+.p92 { background: url('/img/phish-92.jpg'); }
+.p93 { background: url('/img/phish-93.jpg'); }
+.p94 { background: url('/img/phish-94.jpg'); }
+.p95 { background: url('/img/phish-95.jpg'); }
+.p96 { background: url('/img/phish-96.jpg'); }
+.p97 { background: url('/img/phish-97.jpg'); }
+.p98 { background: url('/img/phish-98.jpg'); }
+.p99 { background: url('/img/phish-99.jpg'); }
+.p00 { background: url('/img/phish-00.jpg'); }
+.p03 { background: url('/img/phish-03.jpg'); }
+.p04 { background: url('/img/phish-04.jpg'); }
+.p09 { background: url('/img/phish-09.jpg'); }
+.p10 { background: url('/img/phish-10.jpg'); }
+.p11 { background: url('/img/phish-11.jpg'); }
+.p12 { background: url('/img/phish-12.jpg'); }
+.p13 { background: url('/img/phish-13.jpg'); }
+.p14 { background: url('/img/phish-14.jpg'); }
+.p15 { background: url('/img/phish-15.jpg'); }
+
+.year-icon {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.year-icon-text {
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: #e3e3e3;
+    font-weight: bold;
+    font-size: 120px;
+    position: absolute;
+    width: 150px;
+    height: 170px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.rank {
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #0da95f;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    padding-top: 4px;
+}

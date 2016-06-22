@@ -1,0 +1,11 @@
+body {
+    background: #7759ae;
+}
+
+#register_link {
+    float: right;
+}
+
+#register_link a {
+    color: #4386fc;
+}
